@@ -123,11 +123,12 @@ while True:
         valor = float(input("Informe o valor do saque: "))
 
         saldo, extrato = sacar(
+            
             saldo=saldo,
             valor=valor,
             extrato=extrato
             limite=limite,
-            limite_saques=LIMITE_SAQUES, 
+            limite_saques=LIMITE_SAQUES 
         )
     
     elif opção == "e":
